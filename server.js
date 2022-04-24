@@ -23,6 +23,15 @@ message.channel.send("https://www.google.com/search?q=meme&client=firefox-b-d&sx
 
 })
 
+Client.on("message", message => {
+
+if (message.content === "hug") {
+
+message.channel.send(here you go! a huggie to make you better<3)
+
+}
+
+})
 
 
-Client.login("")
+Client.login("OTY3NDA0ODY4NjczMzY4MTA1.YmPz_g.vJStwEZLIRNXlYDNOqjPu-YYu1E")
